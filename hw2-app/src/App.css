@@ -1,0 +1,70 @@
+.container {
+  margin: 70px auto;
+  padding: 30px;
+  max-width: 30vw;
+  max-height: 70vh;
+  border-radius: 150px/30px 0px;
+  background-color: rgba(255, 255, 255, 0.493);
+}
+
+.to-do-list {
+  height: 370px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.486);
+  list-style: none;
+  overflow-y: auto;
+}
+
+.to-do-list_item {
+  min-height: 21px;
+  min-width: fit-content;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(39, 37, 37);
+  cursor: pointer;
+}
+
+.not-done {
+  background-color: rgb(236, 238, 98);
+}
+
+.done {
+  background-color: rgb(66, 230, 128);
+}
+
+.to-do-form {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.to-do-form_input {
+  width: 320px;
+  min-width: 50px;
+  padding: 0 10px;
+  border-radius: 7px;
+  border-color: rgb(66, 230, 128);
+  color: rgb(153, 147, 147);
+  outline: none;
+}
+
+.to-do-form_button {
+  margin: 0 5px;
+  width: 110px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid transparent;
+  font-size: 17px;
+  color: rgb(51, 50, 50);
+  background-color: rgb(66, 230, 128);
+  outline: none;
+  cursor: pointer;
+}
+
+.to-do-form_button:hover {
+  color: rgb(114, 110, 110);
+  background-color: rgb(162, 243, 189);
+  border-color: rgb(66, 230, 128);
+}
